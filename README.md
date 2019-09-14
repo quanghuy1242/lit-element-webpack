@@ -11,7 +11,7 @@ npm run build
 
 # Serve
 ```
-npm run dev
+npm start
 ```
 
 # Demo
