@@ -1,0 +1,25 @@
+{
+  "name": "lit-element-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "es-dev-server --node-resolve --babel --watch --open",
+    "build": "webpack --mode production",
+    "start:build": "es-dev-server --app-index dist/index.html --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lit-element": "^2.2.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-decorators": "^7.6.0",
+    "@open-wc/building-webpack": "^2.6.1",
+    "es-dev-server": "^1.18.0",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.8"
+  }
+}
