@@ -23,7 +23,7 @@ npm start
 # Demo
 [Demo](https://lit-element-qh.netlify.com)
 
-# Alternative
+# Alternative (Not Recommended)
 ## Install Dependencies
 ```
 npm install --save-dev polymer-cli
