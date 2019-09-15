@@ -1,6 +1,12 @@
 # Install
 ```
 git clone git@github.com:quanghuy1242/lit-element-webpack.git my-app
+cd my-app
+rm -rf .git (Unix base)
+rm -force .git (Powershell)
+git init
+git add .
+git commit -m 'initial commit'
 npm install
 ```
 
