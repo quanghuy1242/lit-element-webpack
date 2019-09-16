@@ -80,22 +80,6 @@ import './app-main';
   </body>
 </html>
 ```
-## Create `polymer.json` (Optional)
-```json
-{
-  "shell": "index.js",
-  "entrypoint": "index.html",
-  "npm": true,
-  "moduleResolution": "node",
-  "sources": [
-    "index.js",
-    "styles.css"
-  ],
-  "builds": [{
-    "preset": "es5-bundled"
-  }]
-}
-```
 ## Serve and Build
 ```
 polymer serve
