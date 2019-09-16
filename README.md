@@ -27,7 +27,7 @@ npm start
 ## Install Dependencies
 ```
 npm install --save-dev polymer-cli
-npm install lit-element @webcomponents/webcomponentsjs
+npm install lit-element
 ```
 ## Create `app-main.js`
 ```javascript
@@ -72,7 +72,6 @@ import './app-main';
 <!doctype html>
 <html>
 <head>
-  <script src="node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
   <title>LitElement Example</title>
 </head>
   <body>
@@ -81,7 +80,7 @@ import './app-main';
   </body>
 </html>
 ```
-## Create `polymer.json`
+## Create `polymer.json` (Optional)
 ```json
 {
   "shell": "index.js",
@@ -91,9 +90,6 @@ import './app-main';
   "sources": [
     "index.js",
     "styles.css"
-  ],
-  "extraDependencies": [
-    "node_modules/@webcomponents/webcomponentsjs/**"
   ],
   "builds": [{
     "preset": "es5-bundled"
