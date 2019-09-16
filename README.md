@@ -24,9 +24,12 @@ npm start
 [Demo](https://lit-element-qh.netlify.com)
 
 # Alternative (Not Recommended)
+# Requirements
+```
+npm install -g polymer-cli
+```
 ## Install Dependencies
 ```
-npm install --save-dev polymer-cli
 npm install lit-element
 ```
 ## Create `app-main.js`
