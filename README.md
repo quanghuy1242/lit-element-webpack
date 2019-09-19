@@ -88,3 +88,6 @@ import './app-main';
 polymer serve
 polymer build
 ```
+```
+npm install --save-dev @open-wc/building-webpack copy-webpack-plugin es-dev-server webpack webpack-cli @babel/plugin-proposal-class-properties @babel/plugin-proposal-decorators
+```
